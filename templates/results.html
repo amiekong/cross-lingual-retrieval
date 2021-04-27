@@ -1146,6 +1146,7 @@ button {background-color: gray;
     function goBack() {
         window.history.go(-1);
     }
+
     </script>
 
 
@@ -1157,19 +1158,21 @@ button {background-color: gray;
           <h2>Results:</h2>
 <br>
 
+
 <div class="container">
     <div class="row">
-        <ol>
-            {% for title, text in name %}
-            <p>
-            <tr>
-                  <td><b> {{ title }} </b></td>
-                 <br>
-                 <td> {{ text }} </td>
-            </tr>
-          </p>
-            {% endfor %}
-        </ol>
+      <ol>
+          {% for title, text in name %}
+          <p>
+          <tr>
+                <td><b> {{ title }} </b></td>
+               <br>
+               <td> {{ text }} </td>
+          </tr>
+        </p>
+          {% endfor %}
+      </ol>
+
 
     </div>
 </div>
