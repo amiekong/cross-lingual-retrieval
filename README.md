@@ -1,4 +1,5 @@
-# Implementing an English-Spanish Cross-Lingual Information Retrieval System With Topic Model Query Expansion
+# Implementing an English-Spanish Cross-Lingual Information Retrieval System 
+# With Topic Model Query Expansion
 
 Implemented a Cross-Lingual Information Retrieval System for English-Spanish where the returned
 results are in the specified target language regardless of the query’s source language. When a 
