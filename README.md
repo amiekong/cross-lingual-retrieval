@@ -1,5 +1,5 @@
 # cross-lingual-retrieval
-Implementing an English-Spanish Cross-Lingual Information Retrieval System With
+## Implementing an English-Spanish Cross-Lingual Information Retrieval System With
 Topic Model Query Expansion
 
 Implemented a Cross-Lingual Information Retrieval System for English-Spanish where the returned
@@ -50,8 +50,7 @@ A Python tool (deep-translator) that uses multiple translators was installed to 
 source language of the query to the target language. The translated query was then used to search against
 the Solr instance.
 
-## Pseudo-Relevance Feedback: Query Expansion Based On Topic Distributions of Retrieved
-## Documents
+## Pseudo-Relevance Feedback: Query Expansion Based On Topic Distributions of Retrieved Documents
 Using pseudo-relevance feedback (PRF), the user’s new formulated query will be based on the
 top-ranked retrieved documents in the first retrieval round. Terms will be extracted to enhance the user’s
 requirement from the top-ranked documents in the first retrieval round and then expand a query used in
